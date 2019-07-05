@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Verdana;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        background-color: #1abc9c;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Adjust volume</h1>
+    <input
+      type="range"
+      min="0"
+      max="1"
+      value="0.5"
+      step="0.1"
+      class="slider"
+      id="adjust-volume"
+    />
+    <p>Volume: <span id="music-volume">50</span>%</p>
+    <button id="pause">Pause</button>
+    <button id="play">Play</button>
+    <button id="reset">Reset</button>
+    <script>
+      document.addEventListener("DOMContentLoaded", function(e) {
+        const adjustVolumeInput = document.querySelector("#adjust-volume");
+        const musicVolumeDisplay = document.querySelector("#music-volume");
+
+        const pauseButton = document.querySelector("#pause");
+        const playButton = document.querySelector("#play");
+        const resetButton = document.querySelector("#reset");
+
+        pauseButton.addEventListener("click", function(e) {
+          audio.pause();
+        });
+
+        playButton.addEventListener("click", function(e) {
+          audio.play();
+        });
+
+        resetButton.addEventListener("click", function(e) {
+          audio.pause();
+          audio.currentTime = 0;
+          audio.play();
+        });
+
+        adjustVolumeInput.addEventListener("input", function(e) {
+          const currentVolume = Number(this.value);
+          audio.volume = currentVolume;
+          musicVolumeDisplay.textContent = currentVolume * 100;
+        });
+
+        var audio = new Audio("./assets/music/eye of the tiger.mp3");
+        audio.volume = 0.5;
+      });
+    </script>
+  </body>
+</html>
