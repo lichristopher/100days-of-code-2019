@@ -1,3 +1,4 @@
+// First Implementation
 function arrayFrom(list) {
   const newArray = [];
 
@@ -6,4 +7,9 @@ function arrayFrom(list) {
   }
 
   return newArray;
+}
+
+// Second implementation
+function arrayFrom() {
+  return [].slice.call(arguments);
 }
