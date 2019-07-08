@@ -5,6 +5,14 @@
 |         |        |
 |         |        |
 
+# Terminologies
+
+- Synchronous = doing one line of code at a time
+- Asynchronous
+- Thread of execution
+- Memory/variable environment
+- Callstack
+
 # Day 1
 
 ## What I did today
@@ -24,6 +32,10 @@
 - variables that are declared using `var`, `let` and `const` cannot be deleted using the unary operator `delete`
 
 ## Questions
+
+---
+
+- Why when invoking an inline function the 'this' keyword refers to the Window object instead of the element that was clicked on
 
 I answered Lydia Hallie's Javasript questions
 
@@ -49,3 +61,12 @@ I will learn this things to correct my mistakes
 
 - Generators
 - Promises
+- hello
+
+# Day 3
+
+## What I learned today
+
+- Learned about the Javascript event loop
+- Learned how promises work under the hood
+- Learned about the call stack, callback queue and microtask queue
