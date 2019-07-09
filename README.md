@@ -70,3 +70,11 @@ I will learn this things to correct my mistakes
 - Learned about the Javascript event loop
 - Learned how promises work under the hood
 - Learned about the call stack, callback queue and microtask queue
+
+# Day 4
+
+## Question ans Answers
+
+- `package.json` vs `package-lock.json`
+- how `require` works under the hood in Node
+-
