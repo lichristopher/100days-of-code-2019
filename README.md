@@ -12,6 +12,7 @@
 - Thread of execution
 - Memory/variable environment
 - Callstack
+- Callback function = A function that is passed as an argument to a higher-order function. The higher-order function then invokes the callback function
 
 # Day 1
 
@@ -78,3 +79,7 @@ I will learn this things to correct my mistakes
 - `package.json` vs `package-lock.json`
 - how `require` works under the hood in Node
 -
+
+# Day 5
+
+- Made a note taking app using node with the help of yargs and chalk npm modules
