@@ -83,3 +83,9 @@ I will learn this things to correct my mistakes
 # Day 5
 
 - Made a note taking app using node with the help of yargs and chalk npm modules
+
+# Day 6
+
+- Made API request using request module on npm
+- Made callback functions
+- Learned how the call stack, event loop works
