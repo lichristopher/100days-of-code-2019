@@ -89,3 +89,9 @@ I will learn this things to correct my mistakes
 - Made API request using request module on npm
 - Made callback functions
 - Learned how the call stack, event loop works
+
+# Day 7
+
+- Default port in node when opening a port using http is port `80`
+- who node doesn't include `fs` and `path` module right out of the box? Why do we need to require it?
+- why is `res.end` isn't accessible in global but instead just accessible as a a methond in an object passed in a callback
