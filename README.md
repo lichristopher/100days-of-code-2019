@@ -99,3 +99,10 @@ I will learn this things to correct my mistakes
 # Day 8
 
 - Learned how promises works
+
+Questions
+
+- why hbs npm module doesn't need to used `require()`
+- how does express know where `views` folder is located without explicitly telling it
+  - using `process.cwd()`
+- isn't the network error in the node useless if you are using the browser.
