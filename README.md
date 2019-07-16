@@ -106,3 +106,7 @@ Questions
 - how does express know where `views` folder is located without explicitly telling it
   - using `process.cwd()`
 - isn't the network error in the node useless if you are using the browser.
+
+# Day 9
+
+-
