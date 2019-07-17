@@ -109,4 +109,13 @@ Questions
 
 # Day 9
 
--
+- Learned how to use mongodb
+- learned to use mongodb commands
+	- insertOne
+	- insertMany
+	- deleteOne
+	- deleteMany
+	- find
+	- findOne
+	- updateOne
+	- updateMany
