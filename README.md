@@ -5,6 +5,9 @@
 |         |        |
 |         |        |
 
+# Npm Packages
+- https://www.npmjs.com/package/@hapi/joi
+
 # Terminologies
 
 - Synchronous = doing one line of code at a time
@@ -119,3 +122,7 @@ Questions
 	- findOne
 	- updateOne
 	- updateMany
+
+# Day 10
+
+- Learned how to use localStorage
