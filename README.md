@@ -126,3 +126,7 @@ Questions
 # Day 10
 
 - Learned how to use localStorage
+
+# Day 11
+
+- I learned that you set a default layout in handlerbars in express
