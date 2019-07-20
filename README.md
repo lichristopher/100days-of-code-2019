@@ -5,8 +5,17 @@
 |         |        |
 |         |        |
 
+
+# Mongoose
+- https://stackoverflow.com/questions/53942597/when-to-use-new-objectidstring-id-over-objectidstring-id-in-mongoose
+
 # Npm Packages
 - https://www.npmjs.com/package/@hapi/joi
+- mongoose
+- validator
+- mongodb
+- require
+
 
 # Terminologies
 
@@ -130,3 +139,12 @@ Questions
 # Day 11
 
 - I learned that you set a default layout in handlerbars in express
+
+
+# Day 12
+
+- learned that you have to to put `res.status(statusCode)` so the statusCode is accurately displayed. Because if you dont put any status code express defaults to statuscode `200`
+Questions
+- whatt is `__v` in mongoose
+- what is `useCreateIndex` and `useNewUrlParser` in mongoose
+- In the video Resource Reading Endpoints Part II, Why the teacher didn't send status code (404) when database returns an empty array(using find({})) but sent status code(404) when database cannot find a single document using `findById(_id)`
