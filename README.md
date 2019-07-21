@@ -148,3 +148,10 @@ Questions
 - whatt is `__v` in mongoose
 - what is `useCreateIndex` and `useNewUrlParser` in mongoose
 - In the video Resource Reading Endpoints Part II, Why the teacher didn't send status code (404) when database returns an empty array(using find({})) but sent status code(404) when database cannot find a single document using `findById(_id)`
+
+
+# Day 12
+- 
+
+Questions
+- What is the difference between form-data, x-www-form-urlencoded and raw in the Postman
