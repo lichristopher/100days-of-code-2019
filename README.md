@@ -155,3 +155,9 @@ Questions
 
 Questions
 - What is the difference between form-data, x-www-form-urlencoded and raw in the Postman
+
+# Day 13
+
+
+Questions
+- Learned what is a middleware
