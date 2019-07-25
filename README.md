@@ -16,6 +16,9 @@
 - mongodb
 - require
 
+Videos Watched
+
+- July 22 = Watched the Javascript Series on fireship youtube channel
 
 # Terminologies
 
@@ -161,3 +164,11 @@ Questions
 
 Questions
 - Learned what is a middleware
+
+# Day 15
+
+- Learned how next works in express
+
+Questions
+- Should I turn off browser caching for users webpage?
+- 
